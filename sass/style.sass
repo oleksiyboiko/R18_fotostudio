@@ -1,0 +1,74 @@
+$one_font-size: 14px
+$one_color: #707070
+$second_color: #414141    
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: Rubik, sans-serif
+
+.container 
+    max-width: 91.4%
+    width: 100%
+    margin: 0 auto
+
+.menu 
+    display: flex
+    margin-top: 30px
+    &_items 
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-left: 4.84375%
+        width: 36.71875%
+        height: 44px
+        border-bottom: 1px solid rgba(65, 65, 65, 0.5)
+    &_item
+        text-decoration: none
+        font-size: $one_font-size
+        color: $one_color
+    &_links
+        display: flex
+        width: 6.640625%
+        justify-content: space-between
+        margin-left: 40.234375%
+        align-items: center
+
+.header 
+    &_main_foto
+        position: absolute
+        top: 105px
+        left: 32.5%
+        width: 33.59375%
+        height: 511px   
+        z-index: -2
+        background: url("../img/main_foto.jpg") center center/ cover no-repeat
+    &_bg_foto
+        position: absolute
+        top: 0px
+        right: 0.703125%
+        width: 48.8281%
+        z-index: -3
+        height: 721px
+        background: url("../img/header_foto.jpg") center center/ cover no-repeat       
+    &_title 
+        margin-top: 165px
+        font-family: Rubik Mono One
+        font-size: 30px
+        color: $second_color
+        line-height: 37px
+        text-transform: uppercase
+    &_tagline
+        margin-top: 50px
+        font-size: 16px
+        color: $one_color
+    &_btn
+        margin-top: 40px
+        width: 15.625%
+        height: 38px
+        border: none
+        background: #F4D991
+        font-weight: 500
+        font-size: $one_font-size
+        color: $second_color
