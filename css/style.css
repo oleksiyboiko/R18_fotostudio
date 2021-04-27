@@ -100,4 +100,53 @@
   font-size: 14px;
   color: #414141;
 }
+
+.advantages {
+  margin-top: 222px;
+  margin-bottom: 102px;
+}
+
+.advantages_title {
+  font-family: "Rubik Mono One";
+  font-size: 23px;
+  color: #414141;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.advantages_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 70px;
+}
+
+.advantages_items_block {
+  width: 31.375%;
+  height: 261px;
+  border: 1px solid #F4D991;
+}
+
+.advantages_items_block_img {
+  display: block;
+  padding-top: 62px;
+  margin: 0 auto;
+}
+
+.advantages_items_block_info {
+  margin: 0 auto;
+  max-width: 250px;
+  padding-top: 30px;
+  line-height: 147%;
+  font-weight: 400;
+  font-size: 16px;
+  color: #575757;
+}
+
+.advantages_items_block_info.active {
+  max-width: 230px;
+}
 /*# sourceMappingURL=style.css.map */

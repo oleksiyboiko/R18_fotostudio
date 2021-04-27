@@ -1,6 +1,11 @@
 $one_font-size: 14px
 $one_color: #707070
-$second_color: #414141    
+$second_color: #414141   
+
+@mixin title
+    font-family: "Rubik Mono One"
+    font-size: 23px
+    color: #414141
 
 *
     margin: 0
@@ -13,6 +18,7 @@ $second_color: #414141
     width: 100%
     margin: 0 auto
 
+// HEADER
 .menu 
     display: flex
     margin-top: 30px
@@ -72,3 +78,35 @@ $second_color: #414141
         font-weight: 500
         font-size: $one_font-size
         color: $second_color
+// END HEADER
+// ADVANTAGES
+.advantages
+    margin-top: 222px
+    margin-bottom: 102px
+    &_title
+        @include title
+        padding-top: 100px
+        text-align: center
+    &_items
+        display: flex
+        justify-content: space-between
+        margin-top: 70px
+        &_block
+            width: 31.375%
+            height: 261px
+            border: 1px solid #F4D991
+            &_img
+                display: block
+                padding-top: 62px
+                margin: 0 auto 
+            &_info 
+                margin: 0 auto
+                max-width: 250px
+                padding-top: 30px
+                line-height: 147%
+                font-weight: 400
+                font-size: 16px
+                color: #575757
+            &_info.active
+                max-width: 230px
+// END ADVANTAGES 
