@@ -49,7 +49,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 40.234375%;
+  margin-left: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -148,5 +148,77 @@
 
 .advantages_items_block_info.active {
   max-width: 230px;
+}
+
+.portfolio {
+  padding-top: 68px;
+}
+
+.portfolio_title {
+  text-transform: uppercase;
+  font-family: "Rubik Mono One";
+  font-size: 23px;
+  color: #414141;
+}
+
+.portfolio_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.portfolio_items_img1 {
+  width: 100%;
+  height: 600px;
+  background: url("../img/portfolio_1.jpg") center center/cover;
+}
+
+.portfolio_items_right {
+  width: 100%;
+  margin-left: 24.5px;
+}
+
+.portfolio_items_right_under {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portfolio_items_right_img2 {
+  width: 100%;
+  height: 285px;
+  background: url("../img/portfolio_2.jpg") center center/cover;
+}
+
+.portfolio_items_right_img3 {
+  margin-right: 15px;
+  width: 50%;
+  height: 300px;
+  background: url("../img/portfolio_3.jpg") center center/cover;
+}
+
+.portfolio_items_right_img4 {
+  width: 50%;
+  height: 300px;
+  background: url("../img/portfolio_4.jpg") center center/cover;
+}
+
+.portfolio_btn {
+  display: block;
+  margin: 0 auto;
+  width: 15.625%;
+  height: 38px;
+  border: none;
+  background: #F4D991;
+  font-weight: 500;
+  font-size: 14px;
+  color: #414141;
+  margin-bottom: 72px;
 }
 /*# sourceMappingURL=style.css.map */

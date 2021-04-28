@@ -38,7 +38,7 @@ $second_color: #414141
         display: flex
         width: 6.640625%
         justify-content: space-between
-        margin-left: 40.234375%
+        margin-left: auto
         align-items: center
 
 .header 
@@ -110,3 +110,49 @@ $second_color: #414141
             &_info.active
                 max-width: 230px
 // END ADVANTAGES 
+// PORTFOLIO
+.portfolio
+    padding-top: 68px
+    &_title
+        text-transform: uppercase
+        @include title
+    &_items
+        display: flex
+        margin-top: 70px
+        margin-bottom: 40px
+        &_img1
+            width: 100%
+            height: 600px
+            background: url("../img/portfolio_1.jpg") center center / cover 
+        &_right
+            width: 100%
+            margin-left: 24.5px
+            &_under
+                margin-top: 15px
+                display: flex
+                justify-content: space-between
+            &_img2
+                width: 100%
+                height: 285px
+                background: url("../img/portfolio_2.jpg") center center / cover 
+            &_img3
+                margin-right: 15px
+                width: 50%
+                height: 300px
+                background: url("../img/portfolio_3.jpg") center center / cover
+            &_img4
+                width: 50%
+                height: 300px
+                background: url("../img/portfolio_4.jpg") center center / cover
+    &_btn
+        display: block
+        margin: 0 auto
+        width: 15.625%
+        height: 38px
+        border: none
+        background: #F4D991
+        font-weight: 500
+        font-size: $one_font-size
+        color: $second_color
+        margin-bottom: 72px
+// END PORTFOLIO
