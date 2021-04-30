@@ -296,4 +296,25 @@
   font-size: 16px;
   colr: #414141;
 }
+
+.who_we_are {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 330px;
+  padding-bottom: 190px;
+  width: 691px;
+  margin: 0 auto;
+}
+
+.who_we_are_info {
+  margin-left: 58px;
+  font-family: "Rubik";
+  font-size: 16px;
+  line-height: 147%;
+  color: #414141;
+}
 /*# sourceMappingURL=style.css.map */
