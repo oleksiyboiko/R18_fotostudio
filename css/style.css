@@ -317,4 +317,66 @@
   line-height: 147%;
   color: #414141;
 }
+
+.clients_title {
+  font-family: "Rubik Mono One";
+  font-size: 23px;
+  color: #414141;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.clients_logoes {
+  padding: 50px 99px 31.75px 100px;
+  border: 1px solid #F4D991;
+  margin-bottom: 100px;
+}
+
+.clients_logoes_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 296.25px;
+}
+
+.clients_logoes_list_first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 52px;
+}
+
+.clients_logoes_list_second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 45px;
+}
+
+.clients_logoes_list_third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
