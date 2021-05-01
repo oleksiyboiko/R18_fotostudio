@@ -68,7 +68,7 @@
 .header_bg_foto {
   position: absolute;
   top: 0px;
-  right: 0.703125%;
+  right: 0px;
   width: 48.8281%;
   z-index: -3;
   height: 721px;
@@ -255,6 +255,10 @@
   color: #414141;
 }
 
+.location_head_navigation {
+  margin-left: 4.14%;
+}
+
 .location_block {
   position: absolute;
   top: 218px;
@@ -381,6 +385,7 @@
 }
 
 footer {
+  position: relative;
   background: #CBAA74;
 }
 
@@ -436,5 +441,23 @@ footer {
   text-decoration: none;
   font-size: 16px;
   color: #414141;
+}
+
+.portfolio_line {
+  position: absolute;
+  top: 1278px;
+  left: 2.65625%;
+}
+
+.location_line {
+  position: absolute;
+  top: 117px;
+  left: 2.65625%;
+}
+
+.footer_line {
+  position: absolute;
+  top: 77px;
+  left: 15%;
 }
 /*# sourceMappingURL=style.css.map */
